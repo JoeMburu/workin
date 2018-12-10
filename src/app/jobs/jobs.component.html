@@ -1,0 +1,13 @@
+<div class="container">
+    <div class="row">
+        <div class="col s12">
+                <ul class="collapsible popout">
+                        <li *ngFor="let job of jobs">
+                          <div class="collapsible-header"><i class="material-icons">business_center</i>{{job.company}}</div>
+                          <div class="collapsible-body"><span> {{job.description}} </span></div>
+                        </li>
+                </ul>        
+        </div>              
+    </div>
+</div>
+
